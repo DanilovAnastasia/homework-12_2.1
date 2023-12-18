@@ -23,5 +23,3 @@ class TestArrs(unittest.TestCase):
         data = {}
         self.assertEqual(dicts.get_val(data, "vcs", "git"), "git")
         self.assertEqual(dicts.get_val(data, "vcs", "bazaar"), "bazaar")
-
-
